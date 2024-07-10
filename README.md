@@ -3,6 +3,8 @@
 # Project Description 📝
 Pokémon search is a feature on the page with Pokémon collection that allows a Trainer create a filtered view of their Pokémon. This feature was introduced in update to version 0.67.1 All search terms are case-insensitive and spacing is not necessary (except for filtering by proper names of Pokémon, attacks and tags).
 
+# Live
+- https://royajamal.github.io/Pokemon-Search-App/
 
 # Demo 📸
 ![screenshot](Images/Screenshot%202024-07-09%20231745.png)
