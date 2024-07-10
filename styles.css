@@ -22,10 +22,10 @@ main {
 }
 
 .pokemon-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .pokemon-form label {
@@ -33,10 +33,11 @@ main {
 }
 
 .pokemon-form input {
-    padding: 5px;
-    font-size: 16px;
-    margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px;
 }
+
 .pokemon-form button {
   padding: 5px 10px;
   font-size: 16px;
