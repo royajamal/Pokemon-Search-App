@@ -29,7 +29,7 @@ main {
 }
 
 .pokemon-form label {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .pokemon-form input {
@@ -82,7 +82,8 @@ main {
   margin-top: 20px;
 }
 
-.pokemon-table th, .pokemon-table td {
+.pokemon-table th,
+.pokemon-table td {
   padding: 10px;
   border: 1px solid #ddd;
   text-align: center;
@@ -95,4 +96,44 @@ main {
 
 .pokemon-table tbody tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+
+  .pokemon-form {
+    flex-direction: column;
+  }
+
+  .pokemon-form label,
+  .pokemon-form input,
+  .pokemon-form button {
+    margin-bottom: 10px;
+  }
+
+  .pokemon-name-id,
+  .pokemon-size {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pokemon-name-id span,
+  .pokemon-size span {
+    font-size: 16px;
+  }
+
+  #sprite-img img {
+    width: 100px;
+  }
+
+  .pokemon-table th,
+  .pokemon-table td {
+    padding: 5px;
+  }
+
+  .pokemon-table th {
+    font-size: 14px;
+  }
 }
